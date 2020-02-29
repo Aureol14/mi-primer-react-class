@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import logo from './logo.svg';
 import './App.css';
+import ContadorComponent from '../src/components/Contador'
 
 //Componentes = clase
 /*class App(){
@@ -20,25 +21,15 @@ import './App.css';
 
 const App = () => {
     //const [name, setName] = useState('Renato')
-    const [count, setCount] = useState(0)
-   const sumar = () => {
-       setCount(count+1)
-   }
-   const restar = () => {
-       setCount(count-1)
-   }
+    const name = 'Renato'
+    const apellido = 'Olaechea'
     return (
         <div className="App">
             <div className="App-header">
                 <img src={logo}
-                className="App-logo"></img>
-                <div>{count}</div>
-                <button onClick={sumar}>
-                    SUMAR
-                </button>
-                <button onClick={restar}>
-                    MENOS
-                </button>
+                    className="App-logo"></img>
+                <ContadorComponent Name={name}
+                    lastName={apellido} />
             </div>
         </div>
     )
