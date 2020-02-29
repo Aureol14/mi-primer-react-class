@@ -1,0 +1,23 @@
+React js
+
+Herramientas para React:
+Visual Studio Code
+Node js
+Git
+Github
+----------------------
+Comandos en git
+cd carpeta
+mkdir react
+cd react
+npx create-react-app react-proyect
+git add .
+git commit -m 'cambio generado'
+
+-------------------------
+VSC
+Terminal en bash/git
+git checkout step-1
+npm config set strict-ssl false
+npm install -g
+npm start
