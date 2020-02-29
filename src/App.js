@@ -37,7 +37,7 @@ const App = () => {
                     SUMAR
                 </button>
                 <button onClick={restar}>
-                    RESTAR
+                    MENOS
                 </button>
             </div>
         </div>
